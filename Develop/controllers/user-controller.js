@@ -13,7 +13,13 @@ const userController = {
   async deleteUser(req, res) {},
 
   // add friend to friend list
-  async addFriend(req, res) {},
+  async addFriend(req, res) {
+    User.findOneAndUpdate(
+      { _id: params.userId },
+      {  },
+      {  }
+    )
+  },
   // remove friend from friend list
   async removeFriend(req, res) {},
 };
