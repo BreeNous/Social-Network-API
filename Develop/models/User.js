@@ -3,10 +3,10 @@ const Thought = require("./Thought")
 
 const userSchema = new Schema({
 
-    userId: {
-        type: Schema.Types.ObjectId,
-        default: () => new Types.ObjectId(),
-      },
+    // userId: {
+    //     type: Schema.Types.ObjectId,
+    //     default: () => new Types.ObjectId(),
+    //   },
     username: { 
         type: String, 
         required: true,
